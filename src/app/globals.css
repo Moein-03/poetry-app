@@ -5,6 +5,11 @@
   --foreground: #171717;
 }
 
+@font-face {
+  font-family: "Nastaligh";
+  src: url(IranNastaliq.ttf);
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -22,5 +27,5 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Nastaligh"!important;
 }
