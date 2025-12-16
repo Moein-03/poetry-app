@@ -75,7 +75,6 @@ export const PoetryCard = ({ initialPoetry }: { initialPoetry: Sher }) => {
               </div>
             ))}
           </div>
-          <p className="text-[1.2rem] text-gray-500 mb-3">شاعر : {currentPoetry?.category?.poet?.name || 'ناشناس'}</p>
           <button onClick={getNewPoetry} className="mt-5 px-3 py-2 bg-blue-600 text-[1.5rem] text-white rounded-md hover:bg-blue-800 transition-all">شعری دگر</button>
           <a href={'https://ganjoor.net'} target="_blank" className="text-blue-600 text-[2rem] hover:underline mt-5">گنجور</a>
           </>
